@@ -1,0 +1,47 @@
+.frame, .center {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.frame {
+    width: 400px;
+    height: 400px;
+    border: 17px solid dodgerblue;
+    z-index: 10;
+}
+.hand {
+    height: 20px;
+    width: 200px;
+    position: absolute;
+    left: 0px;
+    top: 190px;
+    background-color: black;
+    z-index: 1;
+    border-radius: 5px;
+    transform: rotate(90deg);
+    transform-origin: 100%;
+}
+.center {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 10;
+}
+.minute {
+    width: 180px;
+    left: 20px;
+}
+.hour {
+    width: 140px;
+    left: 60px;
+}
+.second {
+    background-color: indianred;
+}
